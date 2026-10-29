@@ -1,0 +1,41 @@
+h1{
+    font-size: 5vw;
+    background-color: #d9f2ff;
+    padding: 15px;
+}
+
+p{
+    font-size: 2vw;
+    padding: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    font-size: 3vw;
+    background-color: #e6ffe6;
+    padding: 10px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    body{
+        background-color: #d9f2ff;
+    }
+    h1{
+        font-size: 8vw;
+    }
+    h2{
+        font-size: 6vw;
+        background-color: #ffd6cc;
+    }
+    p{
+        font-size: 4vw;
+    }
+}
